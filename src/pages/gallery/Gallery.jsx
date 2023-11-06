@@ -7,6 +7,8 @@ const Gallery = () => {
 
   useEffect(() => {
     if (window && galleryRef.current) {
+      window.scrollTo(0, 0)
+      
       window.cloudinary
         .galleryWidget({
           container: galleryRef.current,

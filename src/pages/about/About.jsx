@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Header, Card } from '../../components'
 import { data } from '../../constants'
 import shortid from 'shortid'
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='flex flex-col justify-center items-center'>
       <Header title={data.aboutUs.title} />
@@ -13,10 +17,7 @@ const About = () => {
             <div
               className='w-100'
               key={shortid.generate()}>
-              <Card
-                key={shortid.generate()}
-                infoItem={info}
-              />
+              <Card infoItem={info} />
             </div>
           ))}
         </div>

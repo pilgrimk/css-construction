@@ -1,51 +1,12 @@
-
-const aboutUs = {
-  title: 'About Us',
-  infoObjs: [
-    {
-      topLine: 'Top Line 1',
-      headline: 'Headline 1',
-      description: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Tellus integer feugiat scelerisque varius morbi enim. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae.',
-      ],
-      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517520/samples/imagecon-group.jpg',
-      alt: 'alt-1',
-      direction: 'fade-left',
-      bg_color: 'bg-slate-100',
-      reverse: 'false'
-    },
-    {
-      topLine: 'Top Line 2',
-      headline: 'Headline 2',
-      description: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id. Amet dictum sit amet justo donec enim diam vulputate. Purus sit amet luctus venenatis lectus magna fringilla urna porttitor. Sit amet consectetur adipiscing elit ut aliquam',
-        'Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Diam maecenas sed enim ut. Tincidunt augue interdum velit euismod in pellentesque massa. Fermentum iaculis eu non diam. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Id neque aliquam vestibulum morbi blandit cursus risus at. Quisque id diam vel quam elementum pulvinar etiam non quam. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.',
-      ],
-      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517521/samples/cloudinary-group.jpg',
-      alt: 'alt-2',
-      direction: 'fade-right',
-      bg_color: 'bg-slate-200',
-      reverse: 'true'
-    },
-    {
-      topLine: 'Top Line 3',
-      headline: 'Headline 3',
-      description: [
-        'Massa id neque aliquam vestibulum morbi blandit cursus. Pellentesque diam volutpat commodo sed. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Tristique senectus et netus et malesuada fames. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Imperdiet nulla malesuada pellentesque elit eget.',
-        'Cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non quam. Tellus mauris a diam maecenas sed enim ut. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Quis viverra nibh cras pulvinar mattis. Quis enim lobortis scelerisque fermentum dui faucibus. Pharetra magna ac placerat vestibulum. Tellus integer feugiat scelerisque varius morbi enim. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Nisl suscipit adipiscing bibendum est.',
-      ],
-      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517532/cld-sample-2.jpg',
-      alt: 'alt-3',
-      direction: 'fade-left',
-      bg_color: 'bg-slate-100',
-      reverse: 'false'
-    }
-  ]};
+const heroSection = {
+  title: 'Your Home, Your Vision, Our Expertise',
+  subtitle: 'Embark on a Home Transformation Journey with Us',
+};
 
 const contactUs = {
   title_cu: 'Contact Us',
-  name_long: 'CSS Construction, LLC',
+  headline: 'Serving the Salt Lake valley since 2015',
+  name_long: 'CSS Construction LLC',
   name_short: 'CSS',
   addr: '123 Main Street',
   city: 'Sandy',
@@ -72,9 +33,122 @@ const contactUs = {
   ]
 };
 
+const contactUsPage = {
+  headline: 'Transparency and Honest Pricing',
+  sub_headline: 'Call today for a free quote!',
+  description: [
+    `Transparency is a cornerstone of our business at ${contactUs.name_long}. We provide honest and transparent pricing without any hidden costs or surprises. Our clients can trust that the quote they receive accurately reflects the project's scope and their budget. With us, you can be confident that your investment is well-spent, as we believe in straightforward, fair pricing that aligns with the highest industry standards. Choose ${contactUs.name_long} for a transparent and stress-free remodeling experience from the very beginning.`,
+    `We want you to embark on your remodeling journey with peace of mind, and our commitment to transparent pricing ensures that there are no unexpected financial hurdles along the way. When you choose ${contactUs.name_long}, you're choosing a company that values your trust and delivers on its promises, guaranteeing your satisfaction throughout the entire process.`,
+  ],
+  imgUrl: '',
+  alt: 'alt-1',
+};
+
+const servicesOffered = {
+  headline: 'Services Offered',
+  sub_headline: '',
+  description: [
+    `These are just a few examples of the diverse services that ${contactUs.name_long} offers, catering to the unique needs and preferences of local homeowners.`,
+  ],
+  services: [
+    {
+      service: 'Kitchen Remodeling',
+      desc: 'Complete kitchen transformations, including cabinetry, countertops, appliances, and layout adjustments.'
+    },
+    {
+      service: 'Bathroom Renovations',
+      desc: 'Updating and modernizing bathrooms with new fixtures, tiles, and custom shower or bathtub installations.'
+    },
+    {
+      service: 'Deck Construction',
+      desc: 'Design and construction of custom decks for outdoor living spaces, including materials like wood, composite, or vinyl.'
+    },
+    {
+      service: 'Basement Finishing',
+      desc: 'Transforming unfinished basements into functional living areas, such as game rooms, home theaters, or additional bedrooms.'
+    },
+    {
+      service: 'Flooring Installation',
+      desc: 'Installation of various flooring materials, such as hardwood, laminate, tile, or luxury vinyl, for a fresh look and improved functionality.'
+    },
+    {
+      service: 'Room Additions',
+      desc: 'Expanding living space with new room additions, such as sunrooms, home offices, or guest bedrooms.'
+    },
+    {
+      service: 'Whole-Home Remodeling',
+      desc: 'Comprehensive renovation projects that encompass multiple areas of a home, creating a cohesive and updated look.'
+    },
+    {
+      service: 'Exterior Siding and Roofing',
+      desc: 'Replacing or updating exterior siding and roofing materials to improve curb appeal and energy efficiency.'
+    },
+    {
+      service: 'Custom Cabinetry',
+      desc: 'Design and installation of custom cabinetry for kitchens, bathrooms, and storage solutions.'
+    },
+    {
+      service: 'Home Accessibility Modifications',
+      desc: 'Adapting homes for better accessibility, including ramps, wider doorways, and barrier-free showers, to accommodate individuals with mobility challenges or aging in place.'
+    },
+  ],
+  call_to_action: `Schedule a consultation and let's discuss your vision for a more beautiful, functional, and inspiring living space! Or check out our gallery to see some of our completed projects!`,
+  button_label: 'Gallery',
+  bg_color: 'bg-slate-100',
+  reverse: 'false'
+};
+
+const aboutUs = {
+  title: 'About Us',
+  infoObjs: [
+    {
+      // topLine: 'Personalized Project Management',
+      headline: 'Personalized Project Management',
+      description: [
+        `Your remodeling journey should be as enjoyable as the final result. At ${contactUs.name_long}, we understand that attention to detail and open communication are crucial elements in achieving this goal. That's why we provide every client with a dedicated project manager who oversees every aspect of your project. This personal touch ensures that your concerns are addressed promptly, changes are seamlessly integrated, and the entire process is coordinated with ease. We're not just in the business of creating spaces; we're in the business of creating trust, making your remodeling journey a delightful one from the initial consultation to the final reveal.`,
+        `Your project manager becomes your reliable partner, simplifying the complexities of the remodeling process and keeping you informed every step of the way. At ${contactUs.name_long}, we're here to ensure that your vision is translated into reality, with a project manager dedicated to your satisfaction and a remodeling experience that is as stress-free as it is rewarding.`,
+      ],
+      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517520/samples/imagecon-group.jpg',
+      alt: 'alt-1',
+      direction: 'fade-left',
+      bg_color: 'bg-slate-100',
+      reverse: 'false'
+    },
+    {
+      // topLine: 'Local Expertise',
+      headline: 'Local Expertise',
+      description: [
+        `When you choose ${contactUs.name_long}, you're selecting a company with deep roots in your community. We understand the local market, building codes, and regional design preferences. This local expertise allows us to navigate the intricacies of your area, ensuring that your remodeling project complies with all regulations while also aligning with the architectural character of your neighborhood. With ${contactUs.name_long}, you're not just getting a construction company; you're getting a trusted neighbor with a keen understanding of your locality.`,
+        `Our local expertise extends beyond the technical aspects of remodeling. We are familiar with the unique culture and history of the area, and we take pride in incorporating those elements into our designs. When you choose us, you can be confident that we'll create a space that not only meets your needs but also harmonizes with the character of your community. We believe in being a part of the local fabric and contributing to the vibrant tapestry of your neighborhood through thoughtful and regionally informed remodeling.`,
+      ],
+      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517521/samples/cloudinary-group.jpg',
+      alt: 'alt-2',
+      direction: 'fade-right',
+      bg_color: 'bg-slate-200',
+      reverse: 'true'
+    },
+    {
+      // topLine: 'Quick Turnaround Time',
+      headline: 'Quick Turnaround Time',
+      description: [
+        `Time is of the essence, and we understand that homeowners want to enjoy their newly remodeled spaces as soon as possible. At ${contactUs.name_long}, our efficient project management and streamlined processes enable us to deliver projects with a quick turnaround time without compromising on quality. We pride ourselves on our ability to bring your vision to life promptly, so you can start enjoying your transformed space sooner than you'd expect.`,
+        `We know that you're eager to see your project come to life, and our quick turnaround time means less disruption and a faster transition to your dream space. With ${contactUs.name_long}, you get the best of both worlds: high-quality craftsmanship and a prompt project completion, ensuring your satisfaction is not only met but exceeded.`,
+      ],
+      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517532/cld-sample-2.jpg',
+      alt: 'alt-3',
+      direction: 'fade-left',
+      bg_color: 'bg-slate-100',
+      reverse: 'false'
+    }
+  ]
+};
+
 const data = {
+  heroSection,
   aboutUs,
-  contactUs
+  contactUs,
+  contactUsPage,
+  servicesOffered
 };
 
 export default data;

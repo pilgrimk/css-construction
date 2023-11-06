@@ -8,8 +8,10 @@ export default {
     extend: {
       backgroundImage: {
        'header-pattern': "url('./assets/pexels-bg-1.jpg')",
-      },
+       'hero-bg': "url('./assets/remodeled-kitchen.jpg')",
+      },      
     }
   },
   plugins: [],
 }
+

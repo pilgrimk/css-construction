@@ -1,14 +1,19 @@
-import React from 'react'
-import { Header, Card } from '../../components'
+import React, { useEffect } from 'react'
+import { Header, Hero, Services } from '../../components'
 import { data } from '../../constants'
-import shortid from 'shortid'
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='flex flex-col justify-center items-center'>
-      <Header title={data.contactUs.name_long} />
-      <div className='flex w-full min-h-[45vh] justify-center items-center'>
-        <p className=' m-8 text-4xl italic'>Home page content will go here.</p>
+      <Hero />
+      <div className='container max-w-5xl p-4'>
+        <div className='flex w-full min-h-[45vh] justify-center items-center'>
+          <Services />
+        </div>
       </div>
     </div>
   )

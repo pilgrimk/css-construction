@@ -23,10 +23,13 @@ const Footer = () => {
   };
 
   return (
-    <div className='flex flex-col bg-gradient-to-b from-slate-600 to-black'>
-      <div className='flex flex-col justify-evenly p-12 md:flex-row'>
+    <div className='flex flex-col justify-center items-center bg-gradient-to-b from-slate-600 to-black'>
+      <p className='w-full p-8 text-white text-2xl text-center italic'>
+        {data.contactUs.headline}
+      </p>
+      <span className="h-1 w-3/4 bg-orange-100 lg:w-1/2"></span>
+      <div className='flex flex-col justify-evenly p-4 md:flex-row'>
         <div className='text-white text-lg p-8 text-center md:text-left'>
-          <h1></h1>
           <p>{data.contactUs.name_long}</p>
           <p>{data.contactUs.addr}</p>
           <p>{data.contactUs.city}, {data.contactUs.state_short}, {data.contactUs.postal_code}</p>
@@ -49,7 +52,7 @@ const Footer = () => {
           }
         </div>
       </div>
-      <div className='bg-black text-center text-white p-4'>
+      <div className='w-full bg-black text-center text-white p-4'>
         <p>2023 {data.contactUs.name_long}. All Rights Reserved</p>
       </div>
     </div>
