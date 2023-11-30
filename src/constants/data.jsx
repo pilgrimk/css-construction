@@ -24,11 +24,11 @@ const contactUs = {
   social_media: [
     {
       title: 'Facebook',
-      link: 'https://www.facebook.com/northbeachschutzhundclub/'
+      //link: 'https://www.facebook.com/northbeachschutzhundclub/'
     },
     {
       title: 'Instagram',
-      link: 'https://www.instagram.com/northbeachschutzhundclub/'
+      //link: 'https://www.instagram.com/northbeachschutzhundclub/'
     }
   ]
 };
@@ -121,7 +121,7 @@ const aboutUs = {
         `When you choose ${contactUs.name_long}, you're selecting a company with deep roots in your community. We understand the local market, building codes, and regional design preferences. This local expertise allows us to navigate the intricacies of your area, ensuring that your remodeling project complies with all regulations while also aligning with the architectural character of your neighborhood. With ${contactUs.name_long}, you're not just getting a construction company; you're getting a trusted neighbor with a keen understanding of your locality.`,
         `Our local expertise extends beyond the technical aspects of remodeling. We are familiar with the unique culture and history of the area, and we take pride in incorporating those elements into our designs. When you choose us, you can be confident that we'll create a space that not only meets your needs but also harmonizes with the character of your community. We believe in being a part of the local fabric and contributing to the vibrant tapestry of your neighborhood through thoughtful and regionally informed remodeling.`,
       ],
-      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517521/samples/cloudinary-group.jpg',
+      imgUrl: 'https://res.cloudinary.com/dwg2urbuy/image/upload/v1701238552/image10_sairoe.jpg',
       alt: 'alt-2',
       direction: 'fade-right',
       bg_color: 'bg-slate-200',
@@ -134,7 +134,7 @@ const aboutUs = {
         `Time is of the essence, and we understand that homeowners want to enjoy their newly remodeled spaces as soon as possible. At ${contactUs.name_long}, our efficient project management and streamlined processes enable us to deliver projects with a quick turnaround time without compromising on quality. We pride ourselves on our ability to bring your vision to life promptly, so you can start enjoying your transformed space sooner than you'd expect.`,
         `We know that you're eager to see your project come to life, and our quick turnaround time means less disruption and a faster transition to your dream space. With ${contactUs.name_long}, you get the best of both worlds: high-quality craftsmanship and a prompt project completion, ensuring your satisfaction is not only met but exceeded.`,
       ],
-      imgUrl: 'https://res.cloudinary.com/dvpnvgcop/image/upload/c_crop,h_500,w_400/v1676517532/cld-sample-2.jpg',
+      imgUrl: 'https://res.cloudinary.com/dwg2urbuy/image/upload/v1701238552/image5_lrf1nt.jpg',
       alt: 'alt-3',
       direction: 'fade-left',
       bg_color: 'bg-slate-100',
