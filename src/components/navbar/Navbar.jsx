@@ -58,7 +58,8 @@ const Navbar = () => {
       <div className='h-10vh flex justify-between 
       text-white lg:py-5 px-20 py-4 border-orange-800'>
         <div className='flex items-center flex-1'>
-          <span className='text-3xl font-bold'>
+          <img className="h-auto max-w-full" src="/favicon-32x32.png" alt="CSS favicon" />
+          <span className='text-3xl font-bold ml-2'>
             {data.contactUs.name_short}
           </span>
         </div>
