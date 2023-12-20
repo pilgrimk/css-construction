@@ -92,7 +92,7 @@ const servicesOffered = {
       desc: 'Adapting homes for better accessibility, including ramps, wider doorways, and barrier-free showers, to accommodate individuals with mobility challenges or aging in place.'
     },
   ],
-  call_to_action: `Schedule a consultation and let's discuss your vision for a more beautiful, functional, and inspiring living space! Or check out our gallery to see some of our completed projects!`,
+  call_to_action: `With full licensing and comprehensive insurance coverage, our commitment to safety and security is ingrained in every aspect of our remodeling services, ensuring your project is in trusted hands. Schedule a consultation and let's discuss your vision for a more beautiful, functional, and inspiring living space! Or check out our gallery to see some of our completed projects!`,
   button_label: 'Gallery',
   bg_color: 'bg-slate-100',
   reverse: 'false'
