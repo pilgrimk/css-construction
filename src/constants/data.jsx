@@ -108,7 +108,7 @@ const aboutUs = {
         `Your remodeling journey should be as enjoyable as the final result. At ${contactUs.name_long}, we understand that attention to detail and open communication are crucial elements in achieving this goal. That's why we provide every client with a dedicated project manager who oversees every aspect of your project. This personal touch ensures that your concerns are addressed promptly, changes are seamlessly integrated, and the entire process is coordinated with ease. We're not just in the business of creating spaces; we're in the business of creating trust, making your remodeling journey a delightful one from the initial consultation to the final reveal.`,
         `Your project manager becomes your reliable partner, simplifying the complexities of the remodeling process and keeping you informed every step of the way. At ${contactUs.name_long}, we're here to ensure that your vision is translated into reality, with a project manager dedicated to your satisfaction and a remodeling experience that is as stress-free as it is rewarding.`,
       ],
-      imgUrl: 'https://res.cloudinary.com/dwg2urbuy/image/upload/v1701996805/IMG_7785_hjum8c.jpg',
+      imgUrl: 'https://res.cloudinary.com/dwg2urbuy/image/upload/v1732036385/Collby_ti6ima.jpg',
       alt: 'alt-1',
       direction: 'fade-left',
       bg_color: 'bg-slate-100',
