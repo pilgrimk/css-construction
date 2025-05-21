@@ -22,6 +22,11 @@ const Footer = () => {
     }
   };
 
+  const followLink = (link) => {
+    // console.log(link);
+    window.location.href = link;
+  };
+
   return (
     <div className='flex flex-col justify-center items-center bg-gradient-to-b from-slate-600 to-black'>
       <p className='w-full p-8 text-white text-2xl text-center italic'>
@@ -44,7 +49,7 @@ const Footer = () => {
                   className='pt-2 pr-4'
                   key={shortid.generate()}
                   aria-label={media.title}
-                  href={media.link}>
+                  onClick={() => followLink(`${media.link}`)}>
                   {getLinkedIcon(media.title)}
                 </button>
               ))}

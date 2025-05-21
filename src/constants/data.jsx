@@ -22,13 +22,13 @@ const contactUs = {
   days_1: 'Monday-Friday:',
   hours_1: '08:00 am - 12:00 am',
   social_media: [
-    {
-      title: 'Facebook',
-      //link: 'https://www.facebook.com/northbeachschutzhundclub/'
-    },
+    // {
+    //   title: 'Facebook',
+    //   //link: 'https://www.facebook.com/northbeachschutzhundclub/'
+    // },
     {
       title: 'Instagram',
-      //link: 'https://www.instagram.com/northbeachschutzhundclub/'
+      link: 'https://www.instagram.com/css.construction.llc/'
     }
   ]
 };
@@ -134,7 +134,7 @@ const aboutUs = {
         `Time is of the essence, and we understand that homeowners want to enjoy their newly remodeled spaces as soon as possible. At ${contactUs.name_long}, our efficient project management and streamlined processes enable us to deliver projects with a quick turnaround time without compromising on quality. We pride ourselves on our ability to bring your vision to life promptly, so you can start enjoying your transformed space sooner than you'd expect.`,
         `We know that you're eager to see your project come to life, and our quick turnaround time means less disruption and a faster transition to your dream space. With ${contactUs.name_long}, you get the best of both worlds: high-quality craftsmanship and a prompt project completion, ensuring your satisfaction is not only met but exceeded.`,
       ],
-      imgUrl: 'https://res.cloudinary.com/dwg2urbuy/image/upload/v1701238552/20231020_15.jpg',
+      imgUrl: 'https://res.cloudinary.com/dwg2urbuy/image/upload/v1713411431/20240418_19.jpg',
       alt: 'alt-3',
       direction: 'fade-left',
       bg_color: 'bg-slate-100',
